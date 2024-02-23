@@ -1,4 +1,7 @@
-package Controller;// Controller.Contato e Suas Propriedades !
+
+//Contato e Suas Propriedades !
+
+package Controller;
 
 public class Contato {
     private String nome;

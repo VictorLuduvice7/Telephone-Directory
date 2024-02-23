@@ -1,5 +1,7 @@
-package Controller;// Parte de Controller.Agenda e suas propriedades !
 
+//genda e suas propriedades !
+
+package Controller;
 import java.util.ArrayList;
 
 public class Agenda {
@@ -26,5 +28,15 @@ public class Agenda {
         return resultado;
     }
 
+    public void exibirContatos() {
+        if (contatos.isEmpty()) {
+            System.out.println("Nenhum contato na agenda.");
+        } else {
+            System.out.println("Contatos na agenda:");
+            for (Contato contato : contatos) {
+                System.out.println(contato);
+            }
+        }
+    }
 
 }
